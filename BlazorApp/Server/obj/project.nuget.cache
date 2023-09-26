@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Lm49M0Cnl+qS9hiVCaZFvzGps12OAqTIhFUH7vHJVEgYBOXgyaewDLDLMa0pTi2NnLyt/snCh+Q3H3GXGMnOlg==",
+  "dgSpecHash": "zYfe5PcIr9ceuFSSaFS+NL7/trfC5/9gf+9aW0I1GCqQcn+HxwH+uPQZSJXwKNQhGlIdiLbnNg1T/DAZq0H42A==",
   "success": true,
   "projectFilePath": "C:\\Users\\pc\\Desktop\\test\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\delegate.sassbuilder\\1.4.0\\delegate.sassbuilder.1.4.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.10\\microsoft.aspnetcore.authorization.7.0.10.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.10\\microsoft.aspnetcore.components.7.0.10.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.10\\microsoft.aspnetcore.components.analyzers.7.0.10.nupkg.sha512",

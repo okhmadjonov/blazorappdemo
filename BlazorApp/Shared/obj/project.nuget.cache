@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iN5CPuVFC3ZK17gXyZ6dNOODjGUeQhVxQgDhQea+t0VAXkXSK6Ifm/QuxKPTWNITtap+KhP4POhvdwAp+lNgzQ==",
+  "dgSpecHash": "uiKjAXyBGpg/LJo6uGDc7wHNkrXt/+j091Y/fttDZ6/0ybDNsaCA6fOWP0X7d0kk8AbB73mbwrRmdVc+vv8l7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\pc\\Desktop\\test\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\delegate.sassbuilder\\1.4.0\\delegate.sassbuilder.1.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

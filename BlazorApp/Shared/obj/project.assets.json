@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Delegate.SassBuilder/1.4.0": {
+        "type": "package",
+        "build": {
+          "build/Delegate.SassBuilder.targets": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Delegate.SassBuilder/1.4.0": {
+      "sha512": "3Jvvh4KvOzdy8EOFyh51M4imdjRyvdzg+WQ4Sb6osAyU9n/Wj7HAUxBbRM15Pas5gutS/zkUnDdLB1Vi5FbtvA==",
+      "type": "package",
+      "path": "delegate.sassbuilder/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "DelegateLogo_g.png",
+        "build/Delegate.SassBuilder.targets",
+        "delegate.sassbuilder.1.4.0.nupkg.sha512",
+        "delegate.sassbuilder.nuspec",
+        "readme.md",
+        "tool/sassc.exe"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Delegate.SassBuilder >= 1.4.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\pc\\.nuget\\packages\\": {}
@@ -45,6 +70,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Delegate.SassBuilder": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

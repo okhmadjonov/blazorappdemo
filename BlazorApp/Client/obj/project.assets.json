@@ -2,6 +2,12 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Delegate.SassBuilder/1.4.0": {
+        "type": "package",
+        "build": {
+          "build/Delegate.SassBuilder.targets": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.10": {
         "type": "package",
         "dependencies": {
@@ -479,6 +485,9 @@
       "BlazorApp.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Delegate.SassBuilder": "1.4.0"
+        },
         "compile": {
           "bin/placeholder/BlazorApp.Shared.dll": {}
         },
@@ -488,6 +497,12 @@
       }
     },
     "net7.0/browser-wasm": {
+      "Delegate.SassBuilder/1.4.0": {
+        "type": "package",
+        "build": {
+          "build/Delegate.SassBuilder.targets": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.10": {
         "type": "package",
         "dependencies": {
@@ -959,6 +974,9 @@
       "BlazorApp.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Delegate.SassBuilder": "1.4.0"
+        },
         "compile": {
           "bin/placeholder/BlazorApp.Shared.dll": {}
         },
@@ -969,6 +987,21 @@
     }
   },
   "libraries": {
+    "Delegate.SassBuilder/1.4.0": {
+      "sha512": "3Jvvh4KvOzdy8EOFyh51M4imdjRyvdzg+WQ4Sb6osAyU9n/Wj7HAUxBbRM15Pas5gutS/zkUnDdLB1Vi5FbtvA==",
+      "type": "package",
+      "path": "delegate.sassbuilder/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "DelegateLogo_g.png",
+        "build/Delegate.SassBuilder.targets",
+        "delegate.sassbuilder.1.4.0.nupkg.sha512",
+        "delegate.sassbuilder.nuspec",
+        "readme.md",
+        "tool/sassc.exe"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/7.0.10": {
       "sha512": "ZAAQZfho51GaJ+Pr2e6TVSDQu8lQ09xHJW67OZwuKtcWbgE4LaKmz6U5z7TYTctWxPQD5uZC1+U1hZUcn0g5Zw==",
       "type": "package",
@@ -1822,6 +1855,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "BlazorApp.Shared >= 1.0.0",
+      "Delegate.SassBuilder >= 1.4.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.10"
     ]
@@ -1869,6 +1903,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Delegate.SassBuilder": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[7.0.10, )"

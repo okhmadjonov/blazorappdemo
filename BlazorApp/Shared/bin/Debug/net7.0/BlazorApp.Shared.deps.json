@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BlazorApp.Shared/1.0.0": {
+        "dependencies": {
+          "Delegate.SassBuilder": "1.4.0"
+        },
+        "runtime": {
+          "BlazorApp.Shared.dll": {}
+        }
+      },
+      "Delegate.SassBuilder/1.4.0": {}
+    }
+  },
+  "libraries": {
+    "BlazorApp.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Delegate.SassBuilder/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Jvvh4KvOzdy8EOFyh51M4imdjRyvdzg+WQ4Sb6osAyU9n/Wj7HAUxBbRM15Pas5gutS/zkUnDdLB1Vi5FbtvA==",
+      "path": "delegate.sassbuilder/1.4.0",
+      "hashPath": "delegate.sassbuilder.1.4.0.nupkg.sha512"
+    }
+  }
+}

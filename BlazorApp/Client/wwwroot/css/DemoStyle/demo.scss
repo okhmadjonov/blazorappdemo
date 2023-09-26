@@ -1,0 +1,18 @@
+﻿
+.container{
+    width:960px;
+    height:560px;
+    margin: 0 auto;
+    border:1px solid teal;
+    border-radius:6px;
+
+    .container-body{
+        width:90%;
+        height:90%;
+        margin: 0 auto;
+        border:1px solid black;
+        border-radius:8px;
+    }
+}
+
+
